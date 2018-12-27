@@ -19,4 +19,4 @@ jcraft是SSH2的一个纯Java实现。它允许你连接到一个sshd 服务器�
 destination_remote_port=3306
 local_port=3307
 上诉代码中的destination_remote_port的3306端口会被转发到本机的3307端口，所以在配置jdbcUrl的时候就要用localhost:3307/xxxx
-![Image text]()
+![Image text](https://raw.githubusercontent.com/rancho00/jcraft-guide/master/images/mysql-config.png)
