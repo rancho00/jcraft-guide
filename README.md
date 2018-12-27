@@ -11,3 +11,12 @@ jcraft是SSH2的一个纯Java实现。它允许你连接到一个sshd 服务器�
 ## 加入一个监听器，并实现监听
 ![Image text](https://raw.githubusercontent.com/rancho00/jcraft-guide/master/images/web-conf.png)
 ![Image text](https://raw.githubusercontent.com/rancho00/jcraft-guide/master/images/java-core.png)
+
+
+## 最后配置（以配置数据库为例）
+用远程数据库3306端口为例，
+代码中配置了
+destination_remote_port=3306
+local_port=3307
+上诉代码中的destination_remote_port的3306端口会被转发到本机的3307端口，所以在配置jdbcUrl的时候就要用localhost:3307/xxxx
+![Image text]()
