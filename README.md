@@ -14,8 +14,8 @@ jcraft是SSH2的一个纯Java实现。它允许你连接到一个sshd 服务器�
 
 
 ## 最后配置（以配置数据库为例）
-用远程数据库3306端口为例，
-代码中配置了
+用远程数据库3306端口为例，<br> 
+代码中配置了<br> 
 destination_remote_port=3306<br> 
 local_port=3307<br> 
 上诉代码中的destination_remote_port的3306端口会被转发到本机的3307端口，所以在配置jdbcUrl的时候就要用localhost:3307/xxxx
